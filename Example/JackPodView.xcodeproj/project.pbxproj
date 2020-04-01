@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		30D30E47A3967E7C4D4DD217 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		30D30E47A3967E7C4D4DD217 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		5B1928BA22168C4CECCBA1CF /* Pods-JackPodView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JackPodView_Example.debug.xcconfig"; path = "Target Support Files/Pods-JackPodView_Example/Pods-JackPodView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* JackPodView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JackPodView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -41,10 +41,10 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		7169546803D57FE0EB854A1D /* Pods_JackPodView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JackPodView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		738CB08492DB02D246836121 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		738CB08492DB02D246836121 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		91B92688ABDE91530909A87E /* Pods_JackPodView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JackPodView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAE9B40D4043A3DFDC9E9E8F /* Pods-JackPodView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JackPodView_Tests.debug.xcconfig"; path = "Target Support Files/Pods-JackPodView_Tests/Pods-JackPodView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		D328D082D3749E60C2829BAA /* JackPodView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = JackPodView.podspec; path = ../JackPodView.podspec; sourceTree = "<group>"; };
+		D328D082D3749E60C2829BAA /* JackPodView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JackPodView.podspec; path = ../JackPodView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		DD6D97B60150009AFF47A5D0 /* Pods-JackPodView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JackPodView_Example.release.xcconfig"; path = "Target Support Files/Pods-JackPodView_Example/Pods-JackPodView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		E813C008A028A25D8D45BB38 /* Pods-JackPodView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JackPodView_Tests.release.xcconfig"; path = "Target Support Files/Pods-JackPodView_Tests/Pods-JackPodView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -147,7 +147,6 @@
 				BAE9B40D4043A3DFDC9E9E8F /* Pods-JackPodView_Tests.debug.xcconfig */,
 				E813C008A028A25D8D45BB38 /* Pods-JackPodView_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

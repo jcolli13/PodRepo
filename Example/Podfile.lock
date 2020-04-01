@@ -1,0 +1,16 @@
+PODS:
+  - JackPodView (0.1.0)
+
+DEPENDENCIES:
+  - JackPodView (from `../`)
+
+EXTERNAL SOURCES:
+  JackPodView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JackPodView: cbdf460fc556a73e5d656623b1f0286c71f3613d
+
+PODFILE CHECKSUM: 666f66452cd4b872076be292a76a09383c513258
+
+COCOAPODS: 1.9.1
