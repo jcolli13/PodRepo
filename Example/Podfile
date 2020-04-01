@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'JackPodView_Example' do
+  pod 'JackPodView', :path => '../'
+
+  target 'JackPodView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
