@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'JackPodView'
-  s.version          = '0.5.0'
+  s.version          = '0.6.0'
   s.summary          = 'A short description of JackPodView.'
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'JackPodView/Classes/**/*'
+  s.source_files = 'Source/**/*'
   
   # s.resource_bundles = {
   #   'JackPodView' => ['JackPodView/Assets/*.png']
