@@ -1,11 +1,16 @@
-use_frameworks!
+platform :ios, '12.0'
+
+
+#target 'Example for JackPodView', do
+#  use_frameworks!
+#  pod 'JackPodView'
+#end
 
 target 'JackPodView_Example' do
-  pod 'JackPodView', :path => '../'
+  pod 'JackPodView', '= 0.2.0'
 
   target 'JackPodView_Tests' do
-    inherit! :search_paths
-
+    pod 'JackPodView', '= 0.2.0'
     
   end
 end

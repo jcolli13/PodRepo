@@ -1,4 +1,4 @@
-framework module JackPodView {
+module JackPodView {
   umbrella header "JackPodView-umbrella.h"
 
   export *
